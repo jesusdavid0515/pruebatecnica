@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Entre grandes Tour 2019</title>
+    <link href="./css/Styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="head">
+      <div class="title">
+        <h1>¡Entre <b>GRANDES</b> Tour 2019!</h1>
+      </div>
+
+      <section class="right">
+        <div class="info">
+          <h4>
+            Invitado especial: <br />
+            <strong>Beto Villa</strong>
+          </h4>
+
+          <h1>
+            Concierto de Silvestre Dangond en su <br />
+            <strong>"Tour Entre Grandes"</strong>
+          </h1>
+        </div>
+
+        <div class="companions">
+          <h4>
+            acompañado de grandes interpretes del acordeón, <br />
+            <strong
+              >Omar Geles, Álavaro López <br />
+              Franco Arguelles, El Cocha Molína <br />
+              Beto Villa, Julain Rojas <br />
+              Emiliano Zuleta y <br />
+              Lucas Dangond
+            </strong>
+          </h4>
+        </div>
+
+        <div class="data">
+          <div class="date">
+            <h1>
+              Fecha: <br />
+              <strong>Sábado 24 de Agosto 2019 - 8:00 PM</strong> <br />
+              Lugar: <br />
+              <strong>Diamante de Beisbol, Cali, Colombia</strong>
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <div class="outro">
+        <h2>
+          <a href="https://www.grupored.com.co/">Regístrate</a> y gana boletas
+          para nuestro concierto en cali
+        </h2>
+      </div>
+
+      <footer>
+        <div class="form">
+          <form action="">
+            <input type="text" placeholder="NOMBRE" />
+            <input type="tel" placeholder="TELEFONO" />
+            <input type="email" placeholder="CORREO ELECTRÓNICO" />
+            <label for="inputCiudadLine2" class="control-label"></label>
+            <select class="form-control" id="inputCiudadLine2">
+              <option value="">CIUDAD</option>
+              <option value="Arauca">Arauca</option>
+              <option value="Armenia">Armenia</option>
+              <option value="Barranquilla">Barranquilla</option>
+              <option value="Bogotá">Bogotá</option>
+              <option value="Bucaramanga">Bucaramanga</option>
+              <option value="Cali">Cali</option>
+              <option value="Cartagena">Cartagena</option>
+              <option value="Cúcuta">Cúcuta</option>
+              <option value="Florencia">Florencia</option>
+              <option value="Ibagué">Ibagué</option>
+              <option value="Leticia">Leticia</option>
+              <option value="Manizales">Manizales</option>
+              <option value="Medellín">Medellín</option>
+              <option value="Mitú">Mitú</option>
+              <option value="Mocoa">Mocoa</option>
+              <option value="Montería">Montería</option>
+              <option value="Neiva">Neiva</option>
+              <option value="Pasto">Pasto</option>
+              <option value="Pereira">Pereira</option>
+              <option value="Popayán">Popayán</option>
+              <option value="Puerto Carreño">Puerto Carreño</option>
+              <option value="Puerto Inírida">Puerto Inírida</option>
+              <option value="Quibdó">Quibdó</option>
+              <option value="Riohacha">Riohacha</option>
+              <option value="San Andrés">San Andrés</option>
+              <option value="San José del Guaviare">
+                San José del Guaviare
+              </option>
+              <option value="Santa Marta">Santa Marta</option>
+              <option value="Sincelejo">Sincelejo</option>
+              <option value="Tunja">Tunja</option>
+              <option value="Valledupar">Valledupar</option>
+              <option value="Villavicencio">Villavicencio</option>
+              <option value="Yopal">Yopal</option>
+            </select>
+            <input type="button" value="ENVIAR" class="button" />
+          </form>
+        </div>
+        <div class="term">
+          <h2>Terminos y Condiciones</h2>
+
+          <div>
+            <button onclick="openPopup()">ver mas</button>
+
+            <div id="popup" class="popup">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                aliquet tellus at nibh ultricies, in eleifend leo posuere. Fusce
+                sed ex sit amet lacus elementum dapibus. Donec id dolor vitae
+                neque sollicitudin vestibulum. Nunc ut ex non augue aliquet
+                hendrerit. Quisque euismod, mauris sed ullamcorper scelerisque,
+                orci purus efficitur lorem, a gravida odio est et tellus.
+              </p>
+              <button onclick="closePopup()">Cerrar</button>
+            </div>
+
+            <div id="overlay" class="overlay" style="display: none"></div>
+
+            <script>
+              function openPopup() {
+                document.getElementById("popup").style.display = "block";
+                document.getElementById("overlay").style.display = "block";
+              }
+
+              function closePopup() {
+                document.getElementById("popup").style.display = "none";
+                document.getElementById("overlay").style.display = "none";
+              }
+            </script>
+          </div>
+
+          <div class="right">
+            <input type="checkbox" /> Acepto la politica de tratamiento de datos
+            personales
+          </div>
+        </div>
+      </footer>
+    </header>
+  </body>
+</html>
